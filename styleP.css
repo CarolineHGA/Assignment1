@@ -1,0 +1,84 @@
+body{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    line-height: 1.5;
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
+    padding: 20px;
+    background-color: #f6f6f6;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    color: #030609;
+    margin-top:-15px;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #030609;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #030609;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+nav {
+    text-align: center;
+    color: #222;
+    font-weight: bold;
+}
+
+.head {
+    display:inline
+}
+
+.current-page {
+    font-style:italic;
+    border-left: 1px solid black;
+    padding-left: 6px;
+    display: inline;
+ }
+
+ a {
+    color: #05080c;
+}
+
+li {
+    font-size: 16px;
+}
+
+strong {
+    font-style:italic;
+    font-weight:bold;
+}
+
+.CV {
+    height: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* Rules of Specificity */
+/* 1. Inline Style */
+/* 2. >Two Classes + tag */
+/* 3. Class + tag */
+/* 4. Class */
+/* 5. Tag */
+/* 6.Source Order */

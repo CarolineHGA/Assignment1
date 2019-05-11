@@ -1,0 +1,59 @@
+body{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    line-height: 1.5;
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
+    padding: 50px;
+    background-color: #f6f6f6;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #030609;
+    margin-top:0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #030609;
+    margin-top:10;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    text-align: center;
+    color: #222;
+    font-weight: bold;
+}
+
+li {
+    display: inline
+}
+
+/* class (like current-page) is like a unique label */
+.current-page {
+   font-style:italic;
+   border-right: 1px solid black;
+   padding-right: 6px;
+}
+
+.Profile-pic {
+    height: 200px;
+    float: right;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+a {
+    color: #05080c;
+}
